@@ -55,12 +55,12 @@ def check_split_list_same_average(given_arr):
 
 if __name__ == '__main__':
 
-    print('1) ', [1,10], check_split_list_same_average([1,10]))                      # should print False
-    print('2) ', [2,4,5,7,10,14], check_split_list_same_average([2,4,5,7,10,14]))             # should print True
-    print('3) ', [1,2,3,4,5,6,7,8], check_split_list_same_average([1,2,3,4,5,6,7,8]))           # should print True
-    print('4) ', [7, 9], check_split_list_same_average([7, 9]))                      # should print False
-    print('4) ', [8, 11, 12], check_split_list_same_average([8, 11, 12]))                 # should print False
-    print('4) ', [8, 10, 12], check_split_list_same_average([8, 10, 12]))                 # should print True
-    print('5) ', [1, 5, 7, 2, 0], check_split_list_same_average([1, 5, 7, 2, 0]))             # should print True
-    print('6) ', [4, 3, 5, 9, 11], check_split_list_same_average([4, 3, 5, 9, 11]))            # should print False
-    print('7) ', [1,2,3,4,5,6,7,8,9,10], check_split_list_same_average([1,2,3,4,5,6,7,8,9,10]))      # should print True
+    print('1) ', [1,10], check_split_list_same_average([1,10])) # should print False
+    print('2) ', [2,4,5,7,10,14], check_split_list_same_average([2,4,5,7,10,14])) # should print True
+    print('3) ', [1,2,3,4,5,6,7,8], check_split_list_same_average([1,2,3,4,5,6,7,8])) # should print True
+    print('4) ', [7, 9], check_split_list_same_average([7, 9])) # should print False
+    print('4) ', [8, 11, 12], check_split_list_same_average([8, 11, 12])) # should print False
+    print('4) ', [8, 10, 12], check_split_list_same_average([8, 10, 12])) # should print True
+    print('5) ', [1, 5, 7, 2, 0], check_split_list_same_average([1, 5, 7, 2, 0])) # should print True
+    print('6) ', [4, 3, 5, 9, 11], check_split_list_same_average([4, 3, 5, 9, 11])) # should print False
+    print('7) ', [1,2,3,4,5,6,7,8,9,10], check_split_list_same_average([1,2,3,4,5,6,7,8,9,10])) # should print True
